@@ -1,0 +1,17 @@
+#collapsibleNavbar ul{
+ margin-left: auto;
+   
+}
+#collapsibleNavbar li{
+    margin: 0 20px;
+}
+.navbar,.navbar-brand{
+    font-size: 30px;
+}
+.navbar-brand{
+    font-size: 50px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    
+}

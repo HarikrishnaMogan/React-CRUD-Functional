@@ -1,0 +1,37 @@
+.about{
+    max-width: 500px;
+    background-color: rgb(58, 58, 58);
+    color:white;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.about-body i{
+    font-size: 30vh;
+}
+.about-body div{
+    text-align: center;
+}
+.backicon{
+    font-size: 500px;
+    position: absolute;
+    color: black;
+    left:-50%;
+    top:-10%;
+    z-index: -1;
+ 
+}
+.about-body p{
+    font-size: 20px;
+    
+}
+.about-body p b{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px)
+{
+  .backicon{
+      display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.techheading,.tech{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin: 30px;
+}
+.tech {
+    
+    font-size: 40px;
+   
+}
+.tech div{
+   border:1px solid black;
+   padding: 20px;
+   box-sizing: border-box;
+   margin: 30px 0;
+   max-width: 100%;
+   word-wrap: break-word;
+   transition: all 1s ease;
+}
+.head{
+    max-width:700px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+    
+}
+.tech div:hover{
+   border-radius: 20px 50px 20px 50px;
+
+}
+
+
