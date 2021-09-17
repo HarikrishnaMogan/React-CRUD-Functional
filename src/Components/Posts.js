@@ -75,7 +75,7 @@ function Posts()
     
     
       let updatePost = async()=>{
-          const {data:put} = await axios.put(`${url}/${userId}`,{
+          const {data:put} = await axios.put(`${url}/${id}`,{
               userId:userId,
               title:title,
               body:body,
@@ -87,7 +87,7 @@ function Posts()
       }
 
 
-    let updateform = async(post)=>{
+    let updateform = (post)=>{
        setTitle(post.title);
        setBody(post.body);
        setuserId(post.userId);

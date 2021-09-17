@@ -35,7 +35,7 @@ function Comments({match})
            <div className="userdata"><b>Name:</b>{user.name}</div>
            <div className="userdata"><b>Email:</b>{user.email}</div>
            <div className="userdata"><b>Contact:</b>{user.phone}</div>
-           <div className="userdata"><b>Website:</b>{user.website}</div>
+           <div className="userdata"><b>Company:</b>{user.company ? user.company.name : ""}</div>
           </div>
       </div>
        <div className="content container">
